@@ -87,7 +87,7 @@ def print_metadata(metadata, mode='video'):
         print("please enter valid mode (\"audio\" or \"video\")")
 
 if __name__ == "__main__":
-
+    
     destination = os.path.dirname(os.path.abspath(__file__))
 
     videos = ["https://www.youtube.com/watch?v=ToSe_CUG0F4"]
@@ -95,10 +95,10 @@ if __name__ == "__main__":
     # uncomment for downloading video
     # download_videos(videos, destination)
 
-    # converts mp4 file to numpy array
-    video_location = '/Users/jordanlazzaro/Research/projects/implementations/Learning from YouTube/src/utils/data/MONTEZUMAS REVENGE (ATARI 800XL).mp4'
+    video_location = "" # path to video
     print_metadata(get_metadata(video_location), "audio")
-
+    
+    #convert mp4 to array
     #video_array = video_to_array(video_location)
     #sound_bytes = get_sound_bytes(video_location)
 
