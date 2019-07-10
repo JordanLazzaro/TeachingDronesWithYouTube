@@ -1,4 +1,4 @@
-# LearningFromYouTube
+# TeachingDronesWithYouTube
 An implementation of "Playing Hard Exploration Games by Watching YouTube Videos"
 
 
